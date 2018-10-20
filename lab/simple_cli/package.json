@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "binxx": "./bin/simple_cli",
+  "bin": {
+    "simple_cli": "./bin/simple_cli"
+  },
   "scripts": {
-    "ls":"node scripts/ls.js"
+    "ls": "node scripts/ls.js"
   }
 }
