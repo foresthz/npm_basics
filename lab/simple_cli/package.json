@@ -5,7 +5,7 @@
   "license": "MIT",
   "binxx": "./bin/simple_cli",
   "bin": {
-    "simple_cli": "./bin/simple_cli"
+    "simple_cli": "./bin/simple_cli.js"
   },
   "scripts": {
     "ls": "node scripts/ls.js"
