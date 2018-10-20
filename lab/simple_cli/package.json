@@ -8,6 +8,7 @@
     "simple_cli": "./bin/simple_cli.js"
   },
   "scripts": {
-    "ls": "node scripts/ls.js"
+    "ls": "node scripts/ls.js",
+    "debug": "node --inspect-brk ./bin/simple_cli.js %*"
   }
 }
